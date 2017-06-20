@@ -1,0 +1,43 @@
+1.- npm init
+2.- npm i -D webpack //D argument says install dependecnes
+3.- webpack ./src/app.js ./dist/app.bundle.js
+4.- webpack ./src/app.js ./dist/app.bundle.js -p --watch // with the -p argument will export for production(minified) and watch will automatically export all changes
+5.- npm run dev|prod  // will run the script on webpack.config.js
+
+Html Plugin
+1.-npm i html-webpack-plugin --save-dev
+
+Style, CSS and Sass loaders
+1.- npm install --save-dev css-loader
+2.- npm install --save-dev style-loader
+-- Sass loader --
+3.- npm install --save-dev sass-loader node-sass
+4.- npm install --save-dev extract-text-webpack-plugin -D
+
+browser-sync-webpack-plugin
+1.- npm install --save-dev browser-sync -D
+2.- npm install --save-dev browser-sync-webpack-plugin -D
+
+react and babel
+1.- npm install --save-dev react react-dom -D
+2.- npm install --save-dev babel babel-preset-react babel-preset-react-es2015 -D
+ ---------------------- npm install --save-dev babel-preset-react babel-preset-es2015 --------------
+3.- npm install -save-dev babel-loader babel-core -D
+
+clean dist folder
+1.- npm install --save-dev rimraf -D
+
+upload-files
+1.- npm install --save-dev file-loader -D
+2.- npm install --save-dev image-webpack-loader -D
+
+
+bootstrab loader
+1.- npm install --save-dev bootstrap-loader -D
+2.- npm install --save-dev resolve-url-loader url-loader -D
+3.- npm install --save-dev bootstrap-sass -D
+4.- npm install --save-dev imports-loader jquery -D
+
+optimize css
+1.- npm install --save-dev purify-css -D
+2.- npm install --save-dev purifycss-webpack -D

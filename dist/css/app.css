@@ -1,0 +1,9 @@
+html,body {
+  height: 100%;
+  min-height: 100%;
+  Background: url(dist/images/prueba.png) center center no-repeat;
+}
+
+body h1 {
+  color: deeppink;
+}
