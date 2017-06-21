@@ -4,8 +4,8 @@
   "description": "webpack project starter",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack -d -w",
-    "prod": "npm run clean && webpack -p",
+    "dev": "cross-env NODE_ENV=development && webpack -d -w",
+    "prod": "cross-env NODE_ENV=production && npm run clean && webpack -p",
     "clean": "rimraf ./dist/*"
   },
   "author": "Xairi Valdivia",
@@ -20,6 +20,7 @@
     "bootstrap-sass": "^3.3.7",
     "browser-sync": "^2.18.12",
     "browser-sync-webpack-plugin": "^1.1.4",
+    "cross-env": "^5.0.1",
     "css-loader": "^0.28.4",
     "extract-text-webpack-plugin": "^2.1.2",
     "file-loader": "^0.11.2",
